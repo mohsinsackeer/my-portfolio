@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const Wrapper = styled.div`
+    height: 20hv;
     background-color: #72a9ba;
     p{
         color: var(--darkBlue);
