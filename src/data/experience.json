@@ -1,0 +1,18 @@
+{
+    "experiences": [
+        {
+            "title": "Software Engineer",
+            "company": "ZL Technologies, Hyderabad",
+            "tenure": "July 2023 - Present",
+            "skillsAcquired": ["Java", "RestAPI", "SDLC", "Unit Tests", "Docker", "Kubernetes"],
+            "description": "Helped Develop an Archiving software. Gained knowledge on containerization tech with Docker and Kubernetes. Worked with RestAPI endpoints of various communication data sources to integrate them into the software. Acquainted with SDLC patterns and unit testing."
+        },
+        {
+            "title": "Software Development Intern",
+            "company": "Desicrews Pvt Ltd - IITM Incubated Startup",
+            "tenure": "June 2022 - Aug 2022",
+            "skillsAcquired": ["Flask", "ReactJS", "Web Development"],
+            "description": "Collaborated and worked in a team to develop an automated QA software. Used web development technologies - ReactJS (FrontEnd) and Flask (BackEnd)."
+        }
+    ]
+}

@@ -1,9 +1,8 @@
-import { Wrapper } from "./Skills.styles"
+import { ContentBody } from "../ContentBody/ContentBody";
+import data from "../../../data/skills.json";
 
 export const Skills = () => {
     return (
-        <Wrapper>
-            <p>Skills</p>
-        </Wrapper>
+        <ContentBody data={data}/>
     )
 }

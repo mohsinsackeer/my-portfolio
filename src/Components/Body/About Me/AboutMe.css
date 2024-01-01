@@ -1,0 +1,11 @@
+*{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+a :hover{
+    cursor: pointer;
+    opacity: 0.7;
+}

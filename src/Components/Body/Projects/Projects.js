@@ -1,9 +1,15 @@
-import { Wrapper } from "./Projects.styles"
+import { ContentBody } from "../ContentBody/ContentBody";
+import data from "../../../data/projects.json"
+import { ContentScrollViewWrapper,HorizontalScrollView,Card } from "./ProjectComponents";
 
 export const Projects = () => {
     return (
-        <Wrapper>
-            <p>Projects</p>
-        </Wrapper>
+        // <ContentBody data={data}/>
+
+        <ContentScrollViewWrapper>
+            <HorizontalScrollView>
+                {data.projects.map((project)=>(<Card project={project}/>))}
+            </HorizontalScrollView>
+        </ContentScrollViewWrapper>
     )
 }

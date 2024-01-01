@@ -1,21 +1,22 @@
-import { Introduction, Wrapper } from "./AboutMe.styles"
 import data from '../../../data/about-me.json';
+import { AboutMeContent, AboutMeHeader, ContentWrapper } from './AboutMeComponents';
+import './AboutMe.css'
+import { useRef } from 'react';
+
 
 export const AboutMe = () => {
 
-    const print = (data) => {
-        const tempArray = [];
-        data['paragraph'].forEach(element => {
-            tempArray.push(<p>{element}<br/><br/></p>);
-        });
-        return tempArray;
-    }
+    const aboutMeContentRef = useRef(null);
 
     return (
-        <Wrapper>
-            <Introduction>
-                {data['paragraph'].length<0?null:print(data)}
-            </Introduction>
-        </Wrapper>
+        <ContentWrapper>
+            <AboutMeHeader data={data} aboutMeContentRef={aboutMeContentRef}/>
+            <AboutMeContent data={data} aboutMeContentRef={aboutMeContentRef}/>
+        </ContentWrapper>
     )
+
+
+    // return (
+    //     <ContentBody data={data}/>
+    // )
 }
