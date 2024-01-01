@@ -7,9 +7,10 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 const Website = () => (
   <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Routes>
+    {/* <Routes>
       <Route path='/' element={<App/>}/>
-    </Routes>
+    </Routes> */}
+    <App/>
   </BrowserRouter>
 )
 
