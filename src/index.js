@@ -6,12 +6,16 @@ import { App } from './App';
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 const Website = () => (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    {/* <Routes>
-      <Route path='/' element={<App/>}/>
-    </Routes> */}
+  // <BrowserRouter basename={process.env.PUBLIC_URL}>
+  //   <Routes>
+  //     <Route path='/' element={<App/>}/>
+  //   </Routes>
+  //   <App/>
+  // </BrowserRouter>
+
+  <React.StrictMode>
     <App/>
-  </BrowserRouter>
+  </React.StrictMode>
 )
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
