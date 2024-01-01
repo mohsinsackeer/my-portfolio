@@ -1,7 +1,7 @@
 {
   "name": "portfolio-beta",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@testing-library/jest-dom": "^5.17.0",
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "homepage": "https://mohsinsackeer.github.io/",
+    "homepage": "https://mohsinsackeer.github.io/my-portfolio",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
