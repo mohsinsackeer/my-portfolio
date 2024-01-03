@@ -1,21 +1,17 @@
 {
     "contactDetails": {
-        "phoneNumber": {
-            "value": "+917306196276",
-            "imageUrl": "../../../assets/phone-icon.png"
-        },
         "emailAddress": {
             "value": "mohsinsackeer@gmail.com",
-            "imageUrl": "../../../assets/email-icon.png"
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"
         }
     },
     "socialMediaContacts": {
         "linkedIn" : {
-            "imageUrl": "../../../assets/linkedin-icon.png",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
             "websiteUrl":  "https://www.linkedin.com/in/mohsin-sackeer-6a07761a7/"
         },
         "github": {
-            "imageUrl": "../../../assets/linkedin-icon.png",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1024px-GitHub_Invertocat_Logo.svg.png",
             "websiteUrl": "https://www.github.com/mohsinsackeer/"
         },
         "leetcode": {
