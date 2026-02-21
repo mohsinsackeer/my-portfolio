@@ -1,20 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { Header } from './Components/Header/Header';
 import { App } from './App';
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { ThemeProvider } from '@mui/material/styles';
+import theme from './styles/mui-theme';
+import CssBaseline from '@mui/material/CssBaseline';
 
 const Website = () => (
-  // <BrowserRouter basename={process.env.PUBLIC_URL}>
-  //   <Routes>
-  //     <Route path='/' element={<App/>}/>
-  //   </Routes>
-  //   <App/>
-  // </BrowserRouter>
-
   <React.StrictMode>
-    <App/>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <App/>
+    </ThemeProvider>
   </React.StrictMode>
 )
 

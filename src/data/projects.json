@@ -1,9 +1,9 @@
 {
     "projects": [
         {
-            "title": "Chat Website",
-            "keyTerms": ["HTML", "CSS", "Javascript", "Web Sockets", "MongoDB", "NoSQL"],
-            "description": "A web-based social networking platform where you could - send DMs, create groups messages - anything you could do in WhatsApp Web. The app is built using HTML, CSS and JS. It uses a Python Flask backend, with MongoDB Atlas as the database.",
+            "title": "Messaging Platform",
+            "keyTerms": ["Python", "Flask", "WebSockets", "MySQL", "Real-time"],
+            "description": "Built a messenger using Flask (Python) as back-end and HTML-CSS-JS as front-end for real-time text-based communication. Implemented real-time chat using WebSockets for instant message delivery and integrated a MySQL database for user authentication and message storage.",
             "links": [
                 {
                     "name": "Github Repo",
@@ -13,8 +13,8 @@
         },
         {
             "title": "Credit Risk Modelling",
-            "keyTerms": ["Machine Learning", "American Express", "LightGBM Model"],
-            "description": "Built a Credit Risk Model in partnership with American Express, as part of IITM coursework. Explored various ML models including Logistic Regression, Random Forest, XGBoost. Achieved 75% test accuracy for the prediction of the loan default likelihood by tuning a LightGBM model.",
+            "keyTerms": ["Machine Learning", "LightGBM", "XGBoost", "Python"],
+            "description": "Built a Credit Risk Model in partnership with American Express. Explored various ML models including Logistic Regression, Random Forest, XGBoost. Achieved 75% test accuracy for the prediction of loan default likelihood by tuning a LightGBM model.",
             "links": [
                 {
                     "name": "Github Repo",
@@ -23,9 +23,9 @@
             ]
         },
         {
-            "title": "Music Genre Classifier",
-            "keyTerms": ["Deep Learning", "Neural Networks", "91% accuracy"],
-            "description": "Designed a Neural Net that classifies audio files to 10 genres, using a training dataset of 10k audio files. Achieved 91% test accuracy on predicting music genre on tuning a CNN model with 11 layers for 30 epochs.",
+            "title": "Music Genre Recognition",
+            "keyTerms": ["Deep Learning", "CNN", "LSTM", "Audio Processing"],
+            "description": "Designed a Neural Net that classifies audio files to 10 genres, using a training dataset of 10K audio files. Extracted MFCC components and experimented with LSTM and CNN. Achieved 91% test accuracy by tuning an 11-layer CNN model.",
             "links": [
                 {
                     "name": "Github Repo",
@@ -35,8 +35,8 @@
         },
         {
             "title": "Fruit Ninja - Desktop",
-            "keyTerms": ["Pygame", "Desktop Video Game", "Graphics", "Game Controls"],
-            "description": "Imeplemented a desktop video game inspired by the popular mobile game ‘Fruit Ninja’. Developed the game using python’s Pygame library to deploy – Graphics, Game Controls, Sound Effects",
+            "keyTerms": ["Pygame", "Python", "Game Development"],
+            "description": "Implemented a desktop video game inspired by the popular mobile game ‘Fruit Ninja’. Developed the game using python’s Pygame library to deploy graphics, game controls, and sound effects.",
             "links": [
                 {
                     "name": "Github Repo",
@@ -46,8 +46,8 @@
         },
         {
             "title": "Portfolio Optimization",
-            "keyTerms": ["Python", "Pandas", "Numpy", "Real-world Stock Data", "Multi-Threading"],
-            "description": "Conceptualized and implemented a workflow to pull the latest stock data from NSE, calculate the returns and find the best performing stocks depending on the given duration, and gives us the list of stocks to invest in. Heavily uses multi-threading to process vast quantities of time-series data.",
+            "keyTerms": ["Python", "Pandas", "Multi-Threading", "Stock Data"],
+            "description": "Conceptualized and implemented a workflow to pull the latest stock data from NSE, calculate returns and find the best performing stocks. Heavily uses multi-threading to process vast quantities of time-series data.",
             "links": [
                 {
                     "name":"Github Repo",

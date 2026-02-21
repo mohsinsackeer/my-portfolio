@@ -3,6 +3,10 @@
         "emailAddress": {
             "value": "mohsinsackeer@gmail.com",
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"
+        },
+        "phoneNumber": {
+            "value": "+91-7306196276",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png"
         }
     },
     "socialMediaContacts": {
@@ -15,7 +19,7 @@
             "websiteUrl": "https://www.github.com/mohsinsackeer/"
         },
         "leetcode": {
-            "imageUrl": "",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
             "websiteUrl": "https://leetcode.com/mohsinsackeer/"
         }
     }
