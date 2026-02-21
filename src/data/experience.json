@@ -1,0 +1,25 @@
+{
+    "experiences": [
+        {
+            "title": "Software Engineer",
+            "company": "Google",
+            "tenure": "July 2025 - Present",
+            "skillsAcquired": ["GCP", "Full-stack", "1P Applications", "Cloud Computing"],
+            "description": "Software Engineer in Corp Eng, managing 1P applications. Extensive work with Google Cloud Platform (GCP) services. Responsibilities include developing new features and resolving complex bugs in internal tools."
+        },
+        {
+            "title": "Software Development Engineer",
+            "company": "ZL Technologies India",
+            "tenure": "July 2023 - June 2025",
+            "skillsAcquired": ["Java", "Python", "Docker", "Kubernetes", "Microsoft Graph API", "Aspose.Email"],
+            "description": "Engineered an in-place archiving workflow for file connectors, reducing data transfer payload by 90% and cutting overall archiving time by 60%. Redesigned mail export functionality using Aspose.Email, increasing export success rates and improving speed by 160%. Enhanced file metadata retrieval system for JP Morgan project using Java NIO. Revamped OneDrive and SharePoint data ingestion using Microsoft Graph API. Promoted to Team Lead, overseeing three developers."
+        },
+        {
+            "title": "Software Development Intern",
+            "company": "Desicrew Pvt Ltd",
+            "tenure": "June 2022 - Aug 2022",
+            "skillsAcquired": ["Python", "BeautifulSoup", "Jenkins", "Git", "QA Automation"],
+            "description": "Built a Python-based tool to automate detection of content changes across website versions using BeautifulSoup and difflib. Reduced manual website QA effort by 40%. Created a Jenkins pipeline to automatically run comparison tests on a daily basis."
+        }
+    ]
+}
