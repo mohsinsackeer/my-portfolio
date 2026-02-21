@@ -2,6 +2,7 @@
   "name": "portfolio-beta",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mohsinsackeer.github.io/my-portfolio",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
@@ -21,7 +22,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "homepage": "https://mohsinsackeer.github.io/my-portfolio",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
